@@ -21,7 +21,7 @@ This embedded systems project explores real-time task management and peripheral 
 
 ## Repository Structure
 
-This repository is organized to separate project code from vendor drivers:
+This repository is organized as follows to separate project code from vendor drivers:
 
 * **`/source`**: Main application logic, custom drivers, and header files. **(Please start here)**
 * **`/docs`**: Project requirements. (For hardware details, please refer to the [KL25Z Reference Manual](https://www.datasheetarchive.com/datasheet/332a0008e66affee?term=kl25p80m48sf0rm)).
