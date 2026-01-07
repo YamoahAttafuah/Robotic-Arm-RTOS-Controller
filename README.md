@@ -15,7 +15,7 @@ This project explores real-time task management and peripheral interfacing. It u
 **Technical Features:**
 * **Real-Time Operating System:** Utilized FreeRTOS to manage concurrent tasks including motor control, input polling, and status feedback.
 * **Direct Register Access:** Drivers for PWM (TPM), ADC, and GPIO were written by manipulating hardware registers directly, without using SDK abstractions.
-* **Interrupt-Based:** Configured hardware interrupts to capture and process commands and UART signals asynchronously, to ensure responsiveness.
+* **Interrupt-Based:** Configured hardware interrupts for multi-channel ADC signal capture, ultrasonic input capture, and UART communication to ensure responsiveness.
 * **Assembly Integration:** A GPIO initialization function (for the 'forwardLED') implemented in assembly.
 
 
