@@ -1,10 +1,10 @@
-# Ignore IDE settings
+# IDE settings
 .settings/
 .project
 .cproject
 *.launch
 
-# Ignore build artifacts
+# Build artifacts
 Debug/
 Release/
 *.o
