@@ -75,7 +75,7 @@ Accepts ASCII characters via UART (9600 baud) to trigger pre-set positions.
 ## Sequence Recording & Playback
 A custom sequence recording and playback feature was implemented using a struct array in memory.
 1.  **Record:** Pressing the Save button captures the current 4-axis coordinate set from the ADC.
-2.  **Playback:** From any initial position the robotic arm is placed, the system iterates through the `saved_motor_pos` array, executing movements sequentially using `runMotorPositions()`.
+2.  **Playback:** From any initial position of the robotic arm, the system iterates through the `saved_motor_pos` array, executing movements sequentially using `runMotorPositions()`.
 
 ## Technical Snippets
 
