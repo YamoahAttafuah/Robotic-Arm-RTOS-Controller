@@ -10,13 +10,13 @@ An embedded systems project controlling a 4-degree-of-freedom robotic arm using 
 
 ## Project Overview
 
-This project involves real-time task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
+This project involves real-time concurrent task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
 
-**Technical Features:**
+**Key Technical Features:**
 * **Real-Time Operating System:** Utilized FreeRTOS to manage concurrent tasks including motor control, input polling, and status feedback.
-* **Direct Register Access:** Drivers for PWM (TPM), ADC, and GPIO were written by manipulating hardware registers directly, without using SDK abstractions.
+* **Direct Register Access:** Wrote drivers for PWM (TPM), ADC, and GPIO by manipulating hardware registers directly, without using SDK abstractions.
 * **Interrupt-Based:** Configured hardware interrupts for multi-channel ADC signal capture, ultrasonic input capture, and UART communication to ensure responsiveness.
-* **Assembly Integration:** A GPIO initialization function (for the 'forwardLED') implemented in assembly.
+* **Assembly Integration:** Implemented a GPIO initialization function (for the 'forwardLED') in assembly.
 
 
 ## Repository Structure
