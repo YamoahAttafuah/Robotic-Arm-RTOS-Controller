@@ -1,0 +1,13 @@
+# Ignore IDE settings
+.settings/
+.project
+.cproject
+*.launch
+
+# Ignore build artifacts
+Debug/
+Release/
+*.o
+*.d
+*.axf
+*.map
