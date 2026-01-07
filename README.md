@@ -1,6 +1,6 @@
 # 4-DOF Robotic Arm Controller (FreeRTOS & NXP KL25Z)
 
-An embedded firmware project controlling a 4-degree-of-freedom robotic arm using the NXP FRDM-KL25Z (ARM Cortex-M0+). The system features dual-mode control (local/remote), sequence recording/playback, and real-time concurrency managed via FreeRTOS.
+An embedded firmware project controlling a 4-degree-of-freedom robotic arm using the NXP FRDM-KL25Z (ARM Cortex-M0+), featuring dual-mode control (local/remote), sequence recording/playback, and real-time concurrency managed via FreeRTOS.
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Platform](https://img.shields.io/badge/Platform-NXP%20FRDM--KL25Z-blue)
