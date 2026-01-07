@@ -10,7 +10,7 @@ An embedded systems project controlling a 4-degree-of-freedom robotic arm using 
 
 ## Project Overview
 
-This project explores real-time task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
+This project involves real-time task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
 
 **Technical Features:**
 * **Real-Time Operating System:** Utilized FreeRTOS to manage concurrent tasks including motor control, input polling, and status feedback.
