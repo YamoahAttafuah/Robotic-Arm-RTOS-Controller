@@ -1,6 +1,6 @@
 # 4-DOF Robotic Arm Controller (FreeRTOS & NXP KL25Z)
 
-An embedded systems project controlling a 4-degree-of-freedom robotic arm using the NXP FRDM-KL25Z (ARM Cortex-M0+), featuring dual-mode control (local/remote), sequence recording/playback, and real-time concurrency managed via FreeRTOS.
+An embedded systems project for controlling a 4-degree-of-freedom robotic arm using the NXP FRDM-KL25Z (ARM Cortex-M0+), featuring dual-mode control (local/remote), sequence recording/playback, and concurrency managed via FreeRTOS.
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Platform](https://img.shields.io/badge/Platform-NXP%20FRDM--KL25Z-blue)
@@ -8,11 +8,11 @@ An embedded systems project controlling a 4-degree-of-freedom robotic arm using 
 ![Language](https://img.shields.io/badge/Language-C%20%7C%20Assembly-red)
 
 
-## Project Overview
+## Overview
 
-This project involves real-time concurrent task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
+This project involves concurrent task management and peripheral interfacing. It uses FreeRTOS to implement a responsive control loop that interprets various analog inputs, remote UART commands, and ultrasonic sensor data simultaneously, while maintaining safety via a Watchdog timer.
 
-**Key Technical Features:**
+**A few key technical features of the project are as follows:**
 * **Real-Time Operating System:** Utilized FreeRTOS to manage concurrent tasks including motor control, input polling, and status feedback.
 * **Direct Register Access:** Wrote drivers for PWM (TPM), ADC, and GPIO by manipulating hardware registers directly, without using SDK abstractions.
 * **Interrupt-Based:** Configured hardware interrupts for multi-channel ADC signal capture, ultrasonic input capture, and UART communication to ensure responsiveness.
